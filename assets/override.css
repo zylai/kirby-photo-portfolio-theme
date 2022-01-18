@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+/*!
+ * Custom styles to override awsm.css
+ */
+
+nav a:hover{
+  color: #069;
+}
+
+a:hover{
+  color: #069;
+}
+
+nav a:visited{
+  color: #069;
+}
+
+a{
+  color: #069;
+  text-decoration: none !important;
+}
+
+hr{
+  margin: 0 !important;
+}
+
+header{
+  margin-bottom: 1.75rem !important;
+}
+
+h1{
+  margin: 0 !important;
+}
+
+p{
+  -webkit-hyphens:none !important;
+  -ms-hyphens:none !important;
+  hyphens:none !important;
+  line-height: 1.7rem !important;
+}
+
+figcaption{
+  text-align: center !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 2rem !important;
+}
+
+.tagline{
+  margin: 0 !important;
+}
+
+.site-title{
+  color: #000000 !important;
+  text-decoration: none !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.075rem !important;
+}
+
+.active-page{
+  background-color: #069 !important;
+  padding: 0.25rem !important;
+  text-decoration: none !important;
+  color: white !important;
+}
+
+a.active-page{
+  color: white !important;
+}
+
+.posts-list{
+  margin-top: 1em !important;
+  padding-left: 1em !important;
+  list-style: square !important;
+}
+
+.posts-list-time{
+  font-size: 0.75em;
+}
+
+.post-datetime{
+  font-size: 1rem !important;
+  color: silver !important;
+}
+
+.post-title{
+  margin-top: 0.1em !important;
+}
+
+.post-title::after{
+  content: "";
+  display: block;
+  width: 35px;
+  height: 0;
+  margin-top: .5em;
+  border-bottom: 2px solid silver;
+}
+
+h1 + p, h1 + details, h2 + p, h2 + details, h3 + p, h3 + details, h4 + p, h4 + details, h5 + p, h5 + details, h6 + p, h6 + details{
+  margin-top: 1em !important;
+}
