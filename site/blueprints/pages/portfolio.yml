@@ -1,0 +1,10 @@
+title: Portfolio
+
+sections:
+  gallery:
+    type: files
+    layout: cards
+    image:
+      cover: true
+      ratio: 1/1
+
