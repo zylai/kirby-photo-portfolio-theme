@@ -1,7 +1,7 @@
 <?php
 return [
   'debug' => false,
-  'panel' => true,
+  'panel' => false,
   'thumbs' => [
     'srcsets' => [
       'default' => []
