@@ -1,3 +1,4 @@
+
 @charset "UTF-8";
 
 /*!
@@ -17,8 +18,16 @@ nav a:visited{
 }
 
 a{
-  color: #069;
+  color: #069 !important;
   text-decoration: none !important;
+}
+
+a:visited {
+    color: #069;
+}
+
+nav a.active-page:visited{
+  color: fff !important;
 }
 
 hr{
@@ -43,7 +52,7 @@ p{
 figcaption{
   text-align: center !important;
   margin-top: 0.5rem !important;
-  margin-bottom: 2rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
 .tagline{
@@ -57,9 +66,17 @@ figcaption{
   letter-spacing: 0.075rem !important;
 }
 
+.nav-item{
+  margin-right: 0.75em !important;
+}
+
+.nav-link{
+  padding: 0.2rem !important;
+}
+
 .active-page{
   background-color: #069 !important;
-  padding: 0.25rem !important;
+  padding: 0.2rem !important;
   text-decoration: none !important;
   color: white !important;
 }
@@ -68,9 +85,13 @@ a.active-page{
   color: white !important;
 }
 
+.posts-year-list{
+  padding-left: 0em !important;
+}
+
 .posts-list{
   margin-top: 1em !important;
-  padding-left: 1em !important;
+  padding-left: 2em !important;
   list-style: square !important;
 }
 
@@ -85,6 +106,7 @@ a.active-page{
 
 .post-title{
   margin-top: 0.25em !important;
+  margin-bottom: 0.1em !important;
 }
 
 .post-datetime::after{
@@ -97,6 +119,69 @@ a.active-page{
   border-bottom: 2px solid silver;
 }
 
+figure + p{
+  margin-top: 1em !important;
+}
+
 h1 + p, h1 + details, h2 + p, h2 + details, h3 + p, h3 + details, h4 + p, h4 + details, h5 + p, h5 + details, h6 + p, h6 + details{
   margin-top: 1em !important;
+}
+
+.prev-next-navigation-hr{
+  margin-top: 2.5em !important;
+  margin-bottom: 1em !important;
+}
+
+.prev-next-navigation{
+  margin-top: 0.2em !important;
+  margin-bottom: 0.2em !important;
+}
+
+.footer-link{
+  color: unset !important;
+}
+
+.secondary-nav{
+  margin: 0.5em 0;
+}
+
+@media (min-width: 65rem){
+  .secondary-nav{
+    position: absolute;
+    right: -12.5rem;
+    width: 10rem;
+    max-width: 10rem;
+    margin: 0;
+    padding-left: .5em;
+    font-size: .85em;
+    border-left: 1px solid #f2f2f2;
+  }
+}
+
+@media (min-width: 65rem){
+  .secondary-nav li{
+    display: list-item;
+    margin-right: 0em;
+    margin-bottom: 0.6em;
+  }
+}
+
+@media (max-width: 65rem){
+  .secondary-nav-heading{
+    display: none;
+  }
+}
+
+.secondary-nav-heading{
+  margin-top: 0em;
+}
+
+.secondary-nav-heading::after{
+  content: "";
+  display: block;
+  width: 35px;
+  height: 0;
+  margin-top: .35em;
+  margin-bottom: 0.85em;
+  border-bottom: 2px solid silver;
 }
