@@ -1,0 +1,1 @@
+<?php go($page->children()->listed()->first()->url(), 307) ?>
