@@ -1,9 +1,0 @@
-title: Image
-
-fields: 
-    caption:
-        label: Caption
-        type: text
-    alt:
-        label: Alt
-        type: text
