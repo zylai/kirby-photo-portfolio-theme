@@ -1,5 +1,5 @@
-# awsm.css Kirby CMS Theme
+# Kirby CMS Photography Portfolio Theme
 
-Kirby CMS theme utilizing Igor Adamenko's awsm.css framework, with slight modifications
+Simple and lightweight photography portfolio theme for Kirby CMS
 
 ## Work-in-progress
