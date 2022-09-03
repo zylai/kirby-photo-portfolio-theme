@@ -1,7 +1,6 @@
 <?= snippet('header') ?>
 
 <nav class="secondary-nav">
-	<h2 class="secondary-nav-heading">Portfolio</h2>
 	<ul>
 		<?php foreach ($page->siblings()->listed() as $subpage): ?>
 		<li>

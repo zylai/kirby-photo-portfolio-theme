@@ -1,13 +1,11 @@
 <?= snippet('header') ?>
 
-<a href="<?= $page->parent()->url() ?>">&lt; Back to all posts</a>
+<a href="<?= $page->parent()->url() ?>" class="back-to-all-posts">&lt; Back to all posts</a>
+
+<p class="post-datetime"><time datetime="<?= $page->date()->toDate('M Y') ?>"><?= $page->date()->toDate('M Y') ?></time></p>
 
 <h1 class="post-title"><?= $page->title() ?><?php e($page->showYearinTitle()->isTrue(), $page->date()->toDate(' Y')) ?></h1>
 
-<time class="post-datetime" datetime="<?= $page->date()->toDate('M Y') ?>">Posted: <?= $page->date()->toDate('M Y') ?></time>
-
 <?= $page->text()->kirbytext() ?>
-
-<hr class="prev-next-navigation-hr">
 
 <?= snippet('footer') ?>
