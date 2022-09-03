@@ -1,7 +1,8 @@
 <?php
 return [
+  'home' => 'portfolio',
   'debug' => false,
-  'panel' => false,
+  'panel' => true,
   'thumbs' => [
     'srcsets' => [
       'default' => []
